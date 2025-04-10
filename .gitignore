@@ -1,0 +1,60 @@
+# Django
+*.pyc
+*.pyo
+*.mo
+*.db
+*.sqlite3
+*.log
+
+# Virtual environment
+.venv/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+.idea/
+# Static files
+staticfiles/
+
+# Media files
+media/
+
+# Database migrations
+*/migrations/*
+!*/migrations/__init__.py
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# Documentation
+docs/_build/
+
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Testing
+.pytest_cache/
